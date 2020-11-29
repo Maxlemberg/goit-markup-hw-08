@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  color: #757575;
+  font-family: roboto, sans-serif;
+}
+
+.title {
+  color: #212121;
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+}
+
+.wraper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .wraper {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wraper {
+    width: 768px;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wraper {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+/*# sourceMappingURL=portfolio.css.map */

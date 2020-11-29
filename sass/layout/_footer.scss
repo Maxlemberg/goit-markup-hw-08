@@ -1,0 +1,147 @@
+// .footer-section {
+// background-color: #2f303a;
+// padding-bottom: 60px;
+// padding-top: 60px;
+// }
+//
+// .footer-container {
+// padding-right: 15px;
+// padding-left: 15px;
+//
+// & .logo-link {
+// display: block;
+// margin-bottom: 20px;
+// }
+// }
+//
+// .contacts {
+// display: inline-block;
+// width: 231px;
+//
+// .box-address &:not(:last-child) {
+// margin-bottom: 9px;
+// }
+// }
+//
+// .logo-studio-footer {
+// color: #ffffff;
+// }
+//
+// .box-address {
+// color: #ffffff;
+// font-weight: 400;
+// font-size: 14px;
+// line-height: 1.71;
+// letter-spacing: 0.03em;
+// font-style: normal;
+// }
+//
+// .footer-link {
+// color: rgba(255, 255, 255, 0.6);
+// font-weight: 400;
+// font-size: 14px;
+// line-height: 1.71;
+// letter-spacing: 0.03em;
+// text-decoration: none;
+// display: block;
+// }
+//
+// .footer-title {
+// color: #ffffff;
+// font-weight: 700;
+// font-size: 14px;
+// line-height: 1.14;
+// letter-spacing: 0.03em;
+// text-transform: uppercase;
+// margin-bottom: 20px;
+// }
+//
+// .social-network-box .social-network {
+// background: rgba(255, 255, 255, 0.1);
+// transition: background-color 250ms $timing-function;
+//
+// &:hover,
+// &:focus {
+// background-color: $accent-color;
+// }
+// }
+//
+// .footer-icon {
+// fill: #ffffff;
+// }
+//
+// .footer-container {
+// display: flex;
+// }
+//
+// .footer-social-address {
+// margin-left: 70px;
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// }
+//
+// .agreement-footer {
+// margin-left: 93px;
+// padding-top: 15px;
+//
+// &-name {
+// font-size: 14px;
+// line-height: 1.14;
+// letter-spacing: 0.03em;
+// text-transform: uppercase;
+// color: #ffffff;
+// display: block;
+// margin-bottom: 20px;
+// }
+// }
+//
+// .btn-footer {
+// width: 200px;
+// height: 50px;
+// background: $accent-color;
+// box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+// border-radius: 4px;
+// color: #ffffff;
+//
+// font-weight: 700;
+// font-size: 16px;
+// line-height: 1.87;
+// letter-spacing: 0.06em;
+// cursor: pointer;
+// padding-right: 40px;
+// margin-left: 12px;
+// }
+//
+// .email-footer-input {
+// width: 358px;
+// height: 50px;
+// outline: none;
+// border: 1px solid rgba(255, 255, 255, 0.3);
+// border-radius: 4px;
+// padding-left: 16px;
+// background-color: transparent;
+// color: #ffffff;
+//
+// &::placeholder {
+// color: rgba(255, 255, 255, 0.6);
+// }
+// }
+//
+// .agreement-box {
+// display: flex;
+// }
+//
+// .footer-icon-send {
+// fill: #ffffff;
+// width: 24px;
+// height: 24px;
+// position: absolute;
+// top: 13px;
+// right: 28px;
+// }
+//
+// .btn-box {
+// position: relative;
+// }
+//

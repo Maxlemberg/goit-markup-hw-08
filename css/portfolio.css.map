@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EFRc,OAAO;EES1B,WAAW,EFNE,MAAM,EAAE,UAAU;CEOhC;;AAED,AAAA,MAAM,CAAC;EACL,KAAK,EFZY,OAAO;EEaxB,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;CACtB;;AAED,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,KAAK;CACf;;ACxBD,AAAA,OAAO,CAAC;EACN,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;CAepB;;AAZC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAPrC,AAAA,OAAO,CAAC;IAQJ,KAAK,EAAE,KAAK;GAWf;;;AARC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAXrC,AAAA,OAAO,CAAC;IAYJ,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,IAAI;GAMf;;;AAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAhBtC,AAAA,OAAO,CAAC;IAiBJ,KAAK,EAAE,MAAM;GAEhB;;;ACnBD,AAAA,QAAQ,CAAC;EACP,cAAc,EAAE,IAAI;EACpB,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "../sass/portfolio.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_mixin-social-network.scss",
+        "../sass/base/_common.scss",
+        "../sass/base/_wraper.scss",
+        "../sass/base/_section-portfolio.scss",
+        "../sass/components/_social-network-list.scss",
+        "../sass/layout/_btn-menu-portfolio.scss",
+        "../sass/layout/_item-menu-portfolio.scss",
+        "../sass/layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "portfolio.css"
+}
