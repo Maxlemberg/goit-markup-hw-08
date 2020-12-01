@@ -97,21 +97,24 @@
                 <h2 class="what-we-do title">Чем мы занимаемся</h2>
              <ul class="what-we-do-list list">
                  <li class="what-we-do-img">
-                     <img src="./img/img.png" alt="ввод текста на планшет" width="370px" height="294px">
+                     <img srcset="./img/img.png 1x, ./img/what-we-do/what-we-do1@2x.jpg 2x" 
+                     src="./img/img.png" alt="ввод текста на планшет" width="370px" height="294px">
                      <div class="what-we-do-container">
                          <div class="description-box"></div>
                          <p class="what-we-do-description">Десктопные приложения</p>
                     </div>
                     </li>
                  <li class="what-we-do-img">
-                     <img src="./img/img(2).png" alt="ноутбук" width="370px" height="294px">
+                     <img srcset="./img/img(2).png 1x, ./img/what-we-do/what-we-do2@2x.jpg 2x"
+                     src="./img/img(2).png" alt="ноутбук" width="370px" height="294px">
                      <div class="what-we-do-container">
                          <div class="description-box"></div>
                          <p class="what-we-do-description">Мобильные приложения</p>
                      </div>
                     </li>
                  <li class="what-we-do-img">
-                     <img src="./img/img(1).png" alt="планшет" width="370px" height="294px">
+                     <img srcset="./img/img(1).png 1x, ./img/what-we-do/what-we-do3@2x.jpg 2x"
+                     src="./img/img(1).png" alt="планшет" width="370px" height="294px">
                     <div class="what-we-do-container">
                          <div class="description-box"></div>
                          <p class="what-we-do-description">Дизайнерские решения</p>
@@ -126,7 +129,12 @@
              <h2 class="comand-title title">Наша команда</h2>
              <ul class="comand-list list">
                  <li class="card">
-                     <img src="./img/img3.png" alt="Фото" class="img-comand" width="270">
+                     <picture class="picture">
+                         <source srcset="./img/comand/comand-desctop1@1x.jpg 1x, ./img/comand/comand-desctop1@2x.jpg 2x" media="(min-width: 1200px)">
+                        <source srcset="./img/comand/comand-tablet1@1x.jpg 1x, ./img/comand/comand-tablet1@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./img/comand/comand-mobile1@1x.jpg 1x, ./img/comand/comand-mobile1@2x.jpg 2x" media="(min-width: 320px)">
+                     <img src="./img/img3.png" alt="Фото" class="img-comand">
+                    </picture>
                      <h3 class="comand-name title">Игорь Демьяненко</h3>
                      <p class="profession">Product Designer</p>
                       <ul class="social-item list">
@@ -161,7 +169,12 @@
                       </ul>
                  </li>
                  <li class="card">
-                     <img src="./img/img4.png" alt="Фото" class="img-comand" width="270">
+                     <picture class="picture">
+                        <source srcset="./img/comand/comand-desctop2@1x.jpg 1x, ./img/comand/comand-desctop2@2x.jpg 2x" media="(min-width: 1200px)">
+                        <source srcset="./img/comand/comand-tablet2@1x.jpg 1x, ./img/comand/comand-tablet2@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./img/comand/comand-mobile2@1x.jpg 1x, ./img/comand/comand-mobile2@2x.jpg 2x" media="(min-width: 320px)">
+                      <img src="./img/img4.png" alt="Фото" class="img-comand">
+                        </picture>
                      <h3 class="comand-name title">Ольга Репина</h3>
                      <p class="profession">Frontend Developer</p>
                     <ul class="social-item list">
@@ -196,7 +209,12 @@
                     </ul>
                  </li>
                  <li class="card">
-                     <img src="./img/img5.png" alt="Фото" class="img-comand" width="270">
+                    <picture class="picture">
+                        <source srcset="./img/comand/comand-desctop3@1x.jpg 1x, ./img/comand/comand-desctop3@2x.jpg 2x" media="(min-width: 1200px)">
+                        <source srcset="./img/comand/comand-tablet3@1x.jpg 1x, ./img/comand/comand-tablet3@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./img/comand/comand-mobile3@1x.jpg 1x, ./img/comand/comand-mobile3@2x.jpg 2x" media="(min-width: 320px)">
+                     <img src="./img/img5.png" alt="Фото" class="img-comand">
+                     </picture>
                      <h3 class="comand-name title">Николай Тарасов</h3>
                      <p class="profession">Marketing</p>
                     <ul class="social-item list">
@@ -231,7 +249,12 @@
                     </ul>
                  </li>
                  <li class="card">
-                     <img src="./img/img6.png" alt="Фото" class="img-comand" width="270">
+                    <picture class="picture">
+                        <source srcset="./img/comand/comand-desctop4@1x.jpg 1x, ./img/comand/comand-desctop4@2x.jpg 2x" media="(min-width: 1200px)">
+                        <source srcset="./img/comand/comand-tablet4@1x.jpg 1x, ./img/comand/comand-tablet4@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./img/comand/comand-mobile4@1x.jpg 1x, ./img/comand/comand-mobile4@2x.jpg 2x" media="(min-width: 320px)">
+                     <img src="./img/img6.png" alt="Фото" class="img-comand">
+                     </picture>
                      <h3 class="comand-name title">Михаил Ермаков</h3>
                      <p class="profession">UI Designer</p>
                     <ul class="social-item list">
