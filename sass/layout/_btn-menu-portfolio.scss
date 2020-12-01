@@ -1,33 +1,47 @@
-//.button-menu {
-//  margin-bottom: 50px;
-//
-//  display: flex;
-//  justify-content: center;
-//}
-//
-//.button-name {
-//  color: $title-text-color;
-//  background-color: #f5f4fa;
-//  font-weight: 500;
-//  font-size: 16px;
-//  line-height: 1.62;
-//  text-align: center;
-//  letter-spacing: 0.03em;
-//  font-family: $primery-font;
-//  border-color: transparent;
-//  border-radius: 4px;
-//  cursor: pointer;
-//  padding: 6px 22px;
-//  transition: background-color 250ms $timing-function,
-//    color 250ms $timing-function;
-//
-//  &:hover,
-//  &:focus {
-//    background-color: $accent-color;
-//    color: #ffffff;
-//  }
-//}
-//
-//.button-link:nth-child(n + 2) {
-//  margin-left: 8px;
-//}
+.button-menu {
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+}
+
+.button-name {
+  color: $title-text-color;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: $primery-font;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  transition: background-color 250ms $timing-function,
+    color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: #ffffff;
+  }
+}
+
+.button-link:nth-child(n + 2) {
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .button-link:nth-child(-n + 4) {
+    margin-bottom: 15px;
+  }
+}

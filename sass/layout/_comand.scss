@@ -1,53 +1,82 @@
-//.comand-section {
-//  background-color: #f5f4fa;
-//  padding-bottom: 94px;
-//  padding-top: 94px;
-//}
-//
-//.comand-title {
-//  font-weight: 700;
-//  font-size: 36px;
-//  line-height: 1.16;
-//  text-align: center;
-//  letter-spacing: 0.03em;
-//
-//  margin-bottom: 50px;
-//}
-//
-//.comand-list {
-//  display: flex;
-//  justify-content: space-between;
-//}
-//
-//.img-comand {
-//  margin-bottom: 30px;
-//}
-//
-//.comand-name {
-//  font-weight: 500;
-//  font-size: 16px;
-//  line-height: 1.19;
-//  text-align: center;
-//  letter-spacing: 0.03em;
-//
-//  margin-bottom: 10px;
-//}
-//
-//.profession {
-//  font-weight: 400;
-//  font-size: 16px;
-//  line-height: 1.19;
-//  text-align: center;
-//  letter-spacing: 0.03em;
-//
-//  margin-top: 0px;
-//  margin-bottom: 0px;
-//  padding-bottom: 16px;
-//}
-//
-//.card {
-//  border: 1px solid transparent;
-//  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-//    0px 2px 1px rgba(0, 0, 0, 0.2);
-//  background-color: #ffffff;
-//}
+.comand-section {
+  background-color: #f5f4fa;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.comand-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 30px;
+}
+
+.card {
+  border: 1px solid transparent;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.img-comand {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.comand-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 10px;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .comand-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin-bottom: 30px;
+    width: 354px;
+
+    &:nth-child(2n) {
+      margin-left: 30px;
+    }
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    width: 270px;
+  }
+  .comand-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}

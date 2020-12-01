@@ -1,6 +1,6 @@
-// @mixin social-network-places($br: 50%, $wt: 44px, $ht: 44px, $bc: #fff) {
-// border-radius: $br;
-// width: $wt;
-// height: $ht;
-// background-color: $bc;
-// }
+@mixin social-network-places($br: 50%, $wt: 44px, $ht: 44px, $bc: #fff) {
+  border-radius: $br;
+  width: $wt;
+  height: $ht;
+  background-color: $bc;
+}
