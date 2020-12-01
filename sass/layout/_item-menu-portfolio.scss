@@ -15,6 +15,10 @@
   }
 }
 
+//.picture {
+//  width: auto;
+//}
+
 .work {
   font-weight: 700;
   font-size: 18px;
@@ -76,6 +80,9 @@
   .work-sample {
     width: 354px;
   }
+  //.picture {
+  //  width: 354px;
+  //}
 
   .item-menu {
     display: flex;
@@ -100,6 +107,10 @@
   .work-sample {
     width: 370px;
   }
+  //.picture {
+  //  width: 370px;
+  //}
+
   .work-sample:nth-child(3n) {
     margin-right: 0;
 
