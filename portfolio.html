@@ -80,7 +80,15 @@
                  <li class="work-sample">
                      <a class="link link-sample" href="">
                             <div class="thumb">
-                               <img class="img-sample" src="./img/portfolio/img1.jpg" alt="Ноутбук" width="370px" height="294px">
+                                <picture class="picture">
+                                    <source srcset="./img/portfolio/desctop/desctop1@1x.jpg 1x, ./img/portfolio/desctop/desctop1@2x.jpg 2x"
+                                        media="(min-width: 1200px)" type="image/jpg">
+                                    <source srcset="./img/portfolio/tablet/tablet1@1x.jpg 1x, ./img/portfolio/tablet/tablet1@2x.jpg 2x"
+                                        media="(min-width: 768px)" type="image/jpg">
+                                    <source srcset="./img/portfolio/mobile/mobile1@1x.jpg 1x, ./img/portfolio/mobile/mobile1@2x.jpg 2x"
+                                        media="(min-width: 320px)" type="image/jpg">
+                                <img class="img-sample" src="./img/portfolio/img1.jpg" alt="Ноутбук">
+                                </picture>
                                 <p class="about-work-sample">Технокряк это современная площадка распространения антивируса. Компании используют эту
                                 платформу для цифровой защиты и
                                 анти атак на не защищённые сервера конкурентов)</p>
