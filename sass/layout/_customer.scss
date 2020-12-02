@@ -7,6 +7,22 @@
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .customer-list {
+    display: block;
+  }
+
+  .link-icon {
+    width: 210px;
+    display: block;
+    margin: auto;
+  }
+
+  .logo-box:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 1199px) {
   .customer-section {
     padding-top: 60px;
@@ -14,10 +30,12 @@
   }
 }
 
-.customer-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+@media screen and (min-width: 480px) {
+  .customer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .link-icon {
@@ -38,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .link-icon {
     width: 210px;
   }
