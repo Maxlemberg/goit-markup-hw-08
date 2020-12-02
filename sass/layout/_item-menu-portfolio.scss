@@ -60,7 +60,21 @@
   height: 294px;
   background-color: rgba(33, 150, 243, 0.9);
 
-  padding: 63px 24px;
+  @media screen and (min-width: 320px) and (max-width: 379px) {
+    padding: auto;
+  }
+
+  @media screen and (min-width: 380px) {
+    padding: 50px 24px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 49px 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 63px 24px;
+  }
   color: #ffffff;
   font-size: 18px;
   line-height: 1.55;
