@@ -1196,11 +1196,6 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.btn-box {
-  position: relative;
-  display: flex;
-}
-
 .btn-footer {
   width: 200px;
   height: 50px;
@@ -1213,21 +1208,15 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  margin: 0 auto;
+  margin: auto;
+  display: block;
 }
 
 .footer-icon-send {
   fill: #ffffff;
   width: 24px;
   height: 24px;
-  position: absolute;
-}
-
-@media screen and (max-width: 767px) {
-  .footer-icon-send {
-    top: 25%;
-    right: 32%;
-  }
+  margin-left: 5px;
 }
 
 @media screen and (min-width: 1200px) {
