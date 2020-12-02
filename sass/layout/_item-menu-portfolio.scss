@@ -4,6 +4,7 @@
     margin-bottom: 30px;
   }
   width: auto;
+  max-height: 404px;
   transition: box-shadow 250ms $timing-function;
 
   &:hover,
@@ -80,7 +81,7 @@
 
 @media screen and (min-width: 768px) {
   .work-sample {
-    width: 354px;
+    max-width: 354px;
     margin-right: 30px;
     margin-bottom: 30px;
   }
@@ -102,7 +103,7 @@
 
 @media screen and (min-width: 1200px) {
   .work-sample {
-    width: 370px;
+    max-width: 370px;
   }
 
   .work-sample:nth-child(3n) {
